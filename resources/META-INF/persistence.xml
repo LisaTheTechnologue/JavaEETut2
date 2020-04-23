@@ -6,7 +6,7 @@
     
     <!-- Define a name used to get an entity manager. Define that you will 
     complete transactions with the DB  -->
-    <persistence-unit name="JEETut3" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="JavaTut2" transaction-type="RESOURCE_LOCAL">
     
         <!-- Define the class for Hibernate which implements JPA -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
@@ -18,10 +18,10 @@
             <!-- URL for DB -->
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/test4" />
             <!-- Username -->
-            <property name="javax.persistence.jdbc.user" value="dbadmin" />
+            <property name="javax.persistence.jdbc.user" value="dbadmin1" />
             <!-- Password -->
-            <property name="javax.persistence.jdbc.password" value="javatut1" />
-        </properties>
+            <property name="javax.persistence.jdbc.password" value="javatut2" />
+        </properties>	
     </persistence-unit>
 </persistence>
  

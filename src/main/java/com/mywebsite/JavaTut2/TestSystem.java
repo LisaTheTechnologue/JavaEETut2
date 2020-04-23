@@ -11,17 +11,17 @@ import javax.persistence.TypedQuery;
 public class TestSystem {
     // Create an EntityManagerFactory when you start the application
     private static final EntityManagerFactory ENTITY_MANAGER_FACTORY = Persistence
-            .createEntityManagerFactory("JEETut3");
+            .createEntityManagerFactory("JavaTut2");
     
     public static void main(String[] args) {
     	addCustomer(1, "Sue", "Smith");
-	addCustomer(2, "Sam", "Smith");
-	addCustomer(3, "Sid", "Smith");
-	addCustomer(4, "Sally", "Smith");
-	getCustomer(1);
-	getCustomers();
-	changeFName(4, "Mark");
-	deleteCustomer(3);    	
+		addCustomer(2, "Sam", "Smith");
+		addCustomer(3, "Sid", "Smith");
+		addCustomer(4, "Sally", "Smith");
+		getCustomer(1);
+		getCustomers();
+		changeFName(4, "Mark");
+		deleteCustomer(3);    	
     	ENTITY_MANAGER_FACTORY.close();
     }
     
